@@ -10,8 +10,8 @@ public:
 	void tem2DViewer();
 
 private:
-	int mSize;
+	int mSize; 
 	Controller* mController;
 	Point* mPoints;
+	int mPointNum; // 데이터 개수(?)
 };
-
